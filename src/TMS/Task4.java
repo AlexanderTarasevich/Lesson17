@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 
 public class Task4 {
     public static void main(String[] args) {
-        // Задаем курс обмена
+
         double rate = 3.25;
 
         Consumer<String> convertToUSD = amountInBYN -> {
